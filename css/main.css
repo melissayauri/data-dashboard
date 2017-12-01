@@ -1,80 +1,126 @@
 * {
-    margin: 0;
-    padding: 0;
+  margin: 0;
 }
-header img{
+
+header {
+  height: 100px;
+  width: 90%;
+}
+
+img {
   width: 20%;
+  margin: auto;
+  display: block;
 }
 
-.selectors{
-  background-color: #e1e1e1;
-  height: 70px;
+.bars {
+  float: right;
+  font-size: 40px;
+  /*outline: 1px solid red;*/
+  position: relative;
+  top: -80px;
 }
 
-#selection{
+ul {
+  list-style: none;
+}
+
+.disabled-menu {
+  display: none;
+}
+
+.enabled-menu {
+  display: block;
+}
+
+.section-gray {
+  /*outline:1px solid red;*/
+  height: 80px;
+  background-color: #e2e4e6;
+}
+
+.selections {
   border: none;
+  background-color: #e2e4e6;
   margin-left: 100px;
   margin-top: 10px;
-  height: 30px;
-  width: 160px;
-}
-#section2 {
-    display: inline-block;
-    background-color: rgb(203, 203, 238);
-    width: 100%;
-    height: 200px;
-}
-/*pase a hoja de melli*/
-.active {
-    position: absolute;
-    left: 5%;
-    display: inline-block;
-    width: 100px;
-    height: 100px;   
-}
-.sprint{
- position: absolute;
- left: 25%;
- display: inline-block;
- width: 100%;
- height: 100px; 
-}
-.grafic{
-width: 300px;
-height: auto;
-}
-/*3era pregunta*/
-.points{
-position: absolute;
-left:25%;
-width: 50px;
-height: 50px;
-background-color: red;
+  font-size: 20px;
 }
 
-.pointsListEstudents{
-position: absolute;
-left:45%;
-width: 100px;
-height: 50px;
-background-color: red;
+.container-subtitle {
+  overflow: auto;
+  margin-left: 80px;
+  margin-top: 20px;
 }
-.pointsEstudentsPrc {
-  position: absolute;
-  left: 65%;
-  width: 100px;
-  height: 50px;
-  background-color: red;
+
+.subtitle {
+  float: left;
+  margin-left: 20px;
 }
-.filter2 {
+
+.results {
+  background-color: #f7f7f7;
+  /*outline:1px solid red;*/
+  height: 900px;
+}
+
+.container {
+  margin-left: 80px;
+  text-align: center;
+}
+
+.container .box {
+  outline: 1px solid red;
+  height: 300px;
+  width: 300px;
+  background-color: #ffffff;
+  float: left;
+  margin-left: 30px;
+  margin-top: 30px;
+}
+
+
+/* se adiciono desertores y , margin MARIELA*/
+
+.total-students,
+.desertores,
+.cantDesertores,
+.cantDesertoresTotal {
+  float: left;
+  height: 70px;
+  width: 120px;
+  background-color: #e2e4e6;
+  margin: 2%;
+  text-align: center;
+}
+
+
+/*estilo a las cajas de la seccion nps*/
+
+.total-nps,
+.seccion-nps {
   height: 70px;
   width: 120px;
   background-color: #e2e4e6;
   float: left;
+  margin-left: 20px;
+}
+/*añadiendo actualizaciones 2filtroMariela*/
+/*3era pregunta*/
+.filter2 {
+  height: 70px;
+  width: 120px;
+  background-color: #e2e4e6;
+  /*float: left;*/
   margin-left: 20px;
   text-align: center;
 }
 
 .filtertxt {
   font-size: 12px;
+}
+
+.img {
+  width: 300px;
+  height: auto;
 }
